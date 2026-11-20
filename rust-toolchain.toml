@@ -1,0 +1,6 @@
+# The one source of the Rust toolchain for this repository and the dev container.
+# nightly-2026-08-21 is the toolchain pinned by rust-sel4 v6.0.0 (commit c819c27b).
+[toolchain]
+channel = "nightly-2026-08-21"
+components = ["rust-src", "llvm-tools-preview", "rustfmt", "clippy"]
+targets = ["x86_64-unknown-none", "aarch64-unknown-none"]

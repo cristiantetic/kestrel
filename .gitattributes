@@ -1,0 +1,2 @@
+# The host may be Windows, but every build runs in Linux: keep LF everywhere.
+* text=auto eol=lf

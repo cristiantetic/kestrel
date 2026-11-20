@@ -1,0 +1,16 @@
+# Test fixture for xtask/tests/cli.rs: a workspace whose dependency graph holds a
+# GPL crate, so `cargo deny check licenses` with the repository's deny.toml must fail.
+#
+# The empty [workspace] table makes this its own workspace root. It is not a member
+# of the repository workspace and never appears in that workspace's dependency graph.
+[workspace]
+
+[package]
+name = "gpl-fixture-root"
+version = "0.0.0"
+edition = "2024"
+license = "Apache-2.0"
+publish = false
+
+[dependencies]
+gpl-fixture = { path = "gpl-fixture" }

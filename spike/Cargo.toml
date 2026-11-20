@@ -1,0 +1,9 @@
+[package]
+name = "kestrel-spike"
+description = "Epic 1 spike: Wasmtime on a minimal rust-sel4 root task."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]

@@ -1,0 +1,6 @@
+# A stand-in for a GPL dependency. It contains no GPL code; only its licence field matters.
+[package]
+name = "gpl-fixture"
+version = "0.0.0"
+edition = "2024"
+license = "GPL-3.0-only"

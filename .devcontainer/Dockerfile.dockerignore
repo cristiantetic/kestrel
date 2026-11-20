@@ -1,0 +1,4 @@
+# The build context is the repository root, but the image needs only these files.
+*
+!rust-toolchain.toml
+!.devcontainer/sel4-python-constraints.txt
